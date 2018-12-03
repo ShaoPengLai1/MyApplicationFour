@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.bawei.shaopenglai.view.TitleBarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.bawei.shaopenglai.view.WaterGroupNameLayout
+        android:text="搜索历史"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        />
+    <com.bawei.shaopenglai.view.WaterFall
+        android:id="@+id/water_fall_serach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空历史"
+        android:layout_gravity="center"
+        />
+    <com.bawei.shaopenglai.view.WaterGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"
+        android:layout_marginTop="10dp"
+        android:textColor="#0ff"
+        />
+    <com.bawei.shaopenglai.view.WaterFall
+        android:id="@+id/water_fall_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
